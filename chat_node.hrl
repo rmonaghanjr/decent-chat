@@ -1,2 +1,2 @@
+-record(client_node, {parent, last_update, messages}).
 -record(chat_message, {sent_time, content, client_name}).
--record(client_node, {last_update, messages}).
