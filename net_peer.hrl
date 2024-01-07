@@ -1,0 +1,3 @@
+-record(peer_state, {info, messages, next_peer, prev_peer}).
+-record(peer_info, {name, joined_at, last_update, activity_index}).
+-record(chat_message, {time_sent, sender, contents}).
